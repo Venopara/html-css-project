@@ -1,0 +1,74 @@
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: darkred;
+}
+
+.nav{
+    list-style-type: none;
+    padding: 0;
+    display: inline;
+    color: yellow;
+}
+
+.title {
+    background-color: green;
+    text-align: center;
+    margin: 30px auto 0 auto
+}
+.maincontent {
+    margin:  30px auto 0 auto;
+    text-align: center;
+}
+
+.workingon {
+    text-align: center;
+}
+
+#name {
+    width: 100%
+    padding: 12px 20px;
+    margin: 0 0;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+}
+
+#email {
+    width: 100%
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+}
+
+#website {
+    width: 100%
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+}
+
+#comment {
+    width: 25%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+}
+
+#submit {
+    margin: 12px 100px;
+}
