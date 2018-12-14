@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang= "eng">
+<link type="text/css" rel="stylesheet" href="main.css">
+
+    <body>
+
+    <div class="title">
+
+    <h1>Varanthur</h1>
+
+        <ul class="nav">
+            <li><a href=whoweare.html>Who we Are</a></li>
+            <li><a href=whatwereworkingon.html>What We're Working On</a></li>
+            <li><a href=contactus.html>Contact Us</a></li>
+        </ul>
+
+    </div>
+
+<h1>Contact Us</h1>
+
+    <form method="post">
+        
+        Name: <input type="text" name="name" id="name" /><br />
+
+        Email: <input type="text" name="email" id="email" /><br />
+
+        Website: <input type="text" name="websie" id="website" /><r />
+
+        <br />
+
+        Comment: <textarea name="comment" id="comment"></textarea><br />
+
+        <input type="hidden" name="articleid" id="articalid" value="<? echo $_GET["id"]; ?>
+
+        <input type="submit" value="Submit" id="submit" />
+
+    
+        
+    </body>
