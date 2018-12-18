@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="eng">
+<link type="text/css" rel="stylesheet" href="main.css" />
+
+<head>
+
+    <div class="title">
+
+
+        <ul class="nav">
+            <li><a href=whoweare.html>Who we Are</a></li>
+            <li><a href=whatwereworkingon.html>What We're Working On</a></li>
+            <li><a href=contactus.html>Contact Us</a></li>
+        </ul>
+
+    </div>
+
+    
+</head>
+
+<body>
+
+    <h2>Who We Are</h2>
+
+    <p>We are a group of like-minded people, seeking to make games from our love of them</p>
+
+    <h2 class="goalstitle">Our Goals</h2>
+
+    <ol class="goals">
+
+        <li>one</li>
+        <li>three</li>
+        <li>fifteen</li>
+        <li>two</li>
+
+    </ol>
+
+    <div class="footer">
+
+        <button class="ChangeColour">Change Colour</button>
+        <script type="text/javascript">
+            var color = ["#222f3e", "#5f27cd", "#f368e0", "#ee5253", "#0abde3", "#10ac84"]
+            var i = 0;
+            document.querySelector("button").addEventListener("click", function(){
+                i = i < color.length ? ++i : 0;
+            document.querySelector("body").style.background = color[i]
+        })
+        </script>
+    </div>
+
+</body>
+
+</html>
