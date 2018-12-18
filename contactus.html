@@ -33,7 +33,19 @@
         <input type="submit" value="Submit" id="submit" />
 
     </form>
+    
+    <div class="footer">
 
+        <button class="ChangeColour">Change Colour</button>
+        <script type="text/javascript">
+            var color = ["#222f3e", "#5f27cd", "#f368e0", "#ee5253", "#0abde3", "#10ac84"]
+            var i = 0;
+            document.querySelector("button").addEventListener("click", function(){
+                i = i < color.length ? ++i : 0;
+            document.querySelector("body").style.background = color[i]
+        })
+        </script>
+    </div>
 
 
 </body>
