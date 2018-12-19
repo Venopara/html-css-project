@@ -49,30 +49,47 @@ body {
 }
 
 input, textarea {
-    width: 100%;
+    text-align: center;
+    width: 300px;
     display: block;
     padding: 6px 6px;
-    margin: 10px 0;
     box-sizing: border-box;
     border: 2px solid #ccc;
     border-radius: 4px;
     background-color: #f8f8f8;
+    resize: none;
 }
 
 form {
     width: 300px;
     text-align: left;
-    margin: 0 auto;
     display: inline-block;
 }
 
-#submit {
-    margin: 0 auto;
-    width: auto;
-
+#name {
+    margin: 5px 0;
 }
 
-.footer {
+#email {
+    margin: 5px 0;
+}
+
+#website {
+    margin: 5px 0;
+}
+
+#comment {
+    height: 150px;
+    margin: 5px 0;
+}
+
+#submit {
+    margin: 10px auto;
+    width: auto;
+}
+
+
+/* .footer {
     position: fixed;
     bottom:0;
     text-align: center;
@@ -80,13 +97,21 @@ form {
     font-family: verdana;
     width: 100%;
     height: 50px;
-    background-color: #f6f6f6;
-    }
+    background-color: #65c515;
+    } */
 
 button {
     cursor: pointer;
     padding: 5px;
+    margin: 10px 0 0 0;
 }
-/* .ChangeColour {
 
-} */
+footer {
+    text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    background-color: #65c515;
+}

@@ -8,9 +8,9 @@
 
 
         <ul class="nav">
-            <li><a href=whoweare.html>Who we Are</a></li>
-            <li><a href=whatwereworkingon.html>What We're Working On</a></li>
-            <li><a href=contactus.html>Contact Us</a></li>
+            <li><a href="index.html">Who we Are</a></li>
+            <li><a href="whatwereworkingon.html">What We're Working On</a></li>
+            <li><a href="contactus.html">Contact Us</a></li>
         </ul>
 
     </div>
@@ -26,19 +26,24 @@
         <img src="mapofeorzea.jpg" alt="Map of Eorzea">
 
     </div>
-    
-    <div class="footer">
 
-        <button class="ChangeColour">Change Colour</button>
+<footer>
+
+  <div class="footer">
+
+        <button class="change-colour" type="button">Change Colour</button>
         <script type="text/javascript">
             var color = ["#222f3e", "#5f27cd", "#f368e0", "#ee5253", "#0abde3", "#10ac84"]
             var i = 0;
-            document.querySelector("button").addEventListener("click", function(){
+            document.querySelector(".change-colour").addEventListener("click", function(){
+                document.querySelector("body").style.background = color[i]
                 i = i < color.length ? ++i : 0;
-            document.querySelector("body").style.background = color[i]
         })
         </script>
     </div>
+
+</footer>
+
 </body>
 
 </html>
